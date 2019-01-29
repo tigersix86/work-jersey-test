@@ -8,3 +8,4 @@ https://www.baeldung.com/jackson-annotations
 https://www.mongodb.com/what-is-mongodb
 https://riptutorial.com/jersey/example/23632/basic-dependency-injection-using-jersey-s-hk2
 http://appsdeveloperblog.com/dependency-injection-hk2-jersey-jax-rs/
+https://www.javacodegeeks.com/mongodb-tutorials

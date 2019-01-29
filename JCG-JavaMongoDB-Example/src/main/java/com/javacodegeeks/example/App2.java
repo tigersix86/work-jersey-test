@@ -35,6 +35,12 @@ public class App2 {
 //    	MongoClient mongoClient = new MongoClient(serverAddress, credentialsList);
 //    	System.out.println("Connected to MongoDB...");
 		/**
+		 * alternative
+		 */
+//		MongoClient mongoClient = new MongoClient();
+//		DB database = mongoClient.getDB("myMongoDb");
+//		boolean auth = database.authenticate("username", "pwd".toCharArray());
+		/**
 		 * connecting to a non secured database
 		 */
 		MongoClient mongoClient = new MongoClient(new MongoClientURI("mongodb://localhost:27017"));
