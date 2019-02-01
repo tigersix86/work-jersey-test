@@ -41,17 +41,17 @@ public class TestMain {
 		String job = fields.get("job");
 		System.out.println(job);
 		//Sorted set
-//		Map<String, Double> scores = new HashMap<>();
-//		scores.put("PlayerOne", 3000.0);
-//		scores.put("PlayerTwo", 1500.0);
-//		scores.put("PlayerThree", 8200.0);
-//		scores.entrySet().forEach(playerScore -> {
-//		    jedis.zadd("key", playerScore.getValue(), playerScore.getKey());
-//		});
-//		String player = jedis.zrevrange("ranking", 0, 1).iterator().next();
-//		System.out.println(player);
-//		long rank = jedis.zrevrank("ranking", "PlayerOne");
-//		System.out.println(rank);
+		Map<String, Double> scores = new HashMap<>();
+		scores.put("PlayerOne", 3000.0);
+		scores.put("PlayerTwo", 1500.0);
+		scores.put("PlayerThree", 8200.0);
+		scores.entrySet().forEach(playerScore -> {
+		    jedis.zadd("key", playerScore.getValue(), playerScore.getKey());
+		});
+		String player = jedis.zrevrange("ranking", 0, 1).iterator().next();
+		System.out.println(player);
+		Long rank = jedis.zrevrank("ranking", "PlayerOne");
+		System.out.println(rank);
 		//Transactions
 		String friendsPrefix = "friends#";
 		String userOneId = "4352523";
