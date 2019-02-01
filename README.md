@@ -10,3 +10,4 @@ https://riptutorial.com/jersey/example/23632/basic-dependency-injection-using-je
 http://appsdeveloperblog.com/dependency-injection-hk2-jersey-jax-rs/
 https://www.javacodegeeks.com/mongodb-tutorials
 https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-redis-on-ubuntu-18-04
+https://www.baeldung.com/jedis-java-redis-client-library
