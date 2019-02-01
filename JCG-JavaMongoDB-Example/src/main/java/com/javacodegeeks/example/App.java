@@ -11,6 +11,8 @@ import com.mongodb.DBObject;
 import com.mongodb.MongoClient;
 import com.mongodb.MongoClientURI;
 
+import redis.clients.jedis.Jedis;
+
 /**
  * Hello world!
  *
